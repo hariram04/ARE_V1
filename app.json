@@ -1,0 +1,21 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/wadewegner/salesforce-dx-buildpack"
+    },
+    {
+      "url": "https://github.com/heroku/salesforce-cli-buildpack"
+    }
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "ARE_V1",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
