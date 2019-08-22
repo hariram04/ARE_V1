@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Opportunity Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Post your negotiation justification into the Chatter feed and @mention package owner&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Awaiting Approval</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Follow up on questions or needs from explorer&lt;/li&gt;&lt;li&gt;Contact fulfillment team about special needs or scheduling details&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Deposit Made</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Mention necessary waiver, insurance, certifications, etc upfront&lt;/li&gt;&lt;li&gt;Ask - &amp;quot;Is there anything else you&amp;#39;d like to know or need in order to submit your forms?&amp;quot;&lt;/li&gt;&lt;li&gt;Follow up for all application forms&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Needs Information</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;If the buyer seems likely to walk away from the deal, discount 10%&lt;/li&gt;&lt;li&gt;If the buyer negotiates, and there are more than 5 people involved, you can discount up to 25%&lt;/li&gt;&lt;li&gt;Use the promo &amp;quot;CUST05&amp;quot; for an instant 5% rebate if there is no negotiation involved. Leave discount blank in this case. Tell the customer about complimentary rebate.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Negotiation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Adjust discount based on package owner feedback&lt;/li&gt;&lt;li&gt;Renegotiate with new adjusted discount&lt;/li&gt;&lt;li&gt;Log renegotiation details before changing status to awaiting approval&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Negotiation Rejected</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Ask customer about favorite vacations and activities&lt;/li&gt;&lt;li&gt;Share adventure photos from adventure record&lt;/li&gt;&lt;li&gt;Share testimonials from other explorers&lt;/li&gt;&lt;li&gt;Talk about the best time of year to go&lt;/li&gt;&lt;li&gt;Mention related adventures the customer might be interested in around the same time&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Close the loop with fulfillment team on payment, insurance, and waiver needs&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Scheduled</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

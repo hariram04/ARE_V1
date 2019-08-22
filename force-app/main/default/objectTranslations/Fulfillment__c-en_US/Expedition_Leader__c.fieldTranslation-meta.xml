@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Expedition Leader --></label>
+    <name>Expedition_Leader__c</name>
+    <relationshipLabel><!-- Fulfillments (Expedition Leader) --></relationshipLabel>
+</CustomFieldTranslation>

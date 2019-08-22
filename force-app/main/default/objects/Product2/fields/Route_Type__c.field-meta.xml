@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Route_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Route Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Top Rope</fullName>
+                <default>false</default>
+                <label>Top Rope</label>
+            </value>
+            <value>
+                <fullName>Sport Climbing</fullName>
+                <default>false</default>
+                <label>Sport Climbing</label>
+            </value>
+            <value>
+                <fullName>Trad Climbing</fullName>
+                <default>false</default>
+                <label>Trad Climbing</label>
+            </value>
+            <value>
+                <fullName>Bouldering</fullName>
+                <default>false</default>
+                <label>Bouldering</label>
+            </value>
+            <value>
+                <fullName>Multi-Pitch Climb</fullName>
+                <default>false</default>
+                <label>Multi-Pitch Climb</label>
+            </value>
+            <value>
+                <fullName>Psicobloc</fullName>
+                <default>false</default>
+                <label>Psicobloc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

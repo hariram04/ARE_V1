@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Oppty_Stage_After_Approval</fullName>
+        <field>StageName</field>
+        <literalValue>Scheduled</literalValue>
+        <name>Update Oppty Stage After Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Oppty_Stage_After_Rejection</fullName>
+        <field>StageName</field>
+        <literalValue>Negotiation Rejected</literalValue>
+        <name>Update Oppty Stage After Rejection</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

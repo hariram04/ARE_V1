@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Explorer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Explorers</value>
+    </caseValues>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Postal code should be same as Account --></errorMessage>
+        <name>Contact_must_be_in_Account_ZIP_Code</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Google_Info --></label>
+        <name>Google_Info</name>
+    </webLinks>
+</CustomObjectTranslation>

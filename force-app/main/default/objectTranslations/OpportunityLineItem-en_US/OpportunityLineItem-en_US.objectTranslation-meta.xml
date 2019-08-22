@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Adventure Package</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Adventure Packages</value>
+    </caseValues>
+    <layouts>
+        <layout>Adventure Package Layout (Relaxation Gauntlet)</layout>
+        <sections>
+            <label><!-- Administrative Details --></label>
+            <section>Administrative Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
