@@ -1,7 +1,9 @@
 public class ContactsTodayController {
     //test
+    
     @AuraEnabled
     public static List<Contact> getContactsForToday() {
+        
         List<Contact> important_contacts = new List<Contact>();
         List<Id> important_ids = new List<Id>();
         
@@ -61,6 +63,4 @@ public class ContactsTodayController {
         
         return important_contacts;
     }
-    
-
 }
